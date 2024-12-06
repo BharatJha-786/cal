@@ -1,0 +1,389 @@
+
+.main-container{
+    min-height: 200vh;
+    width: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.write-content{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 250px;
+    background-color: black;
+}
+.blinking-text{
+    color: blue;
+    font-size: 50px;
+    margin-right: 20px;
+}
+.img-menu{
+    width: 100vh;
+    background-color: white;
+    height: 30px;
+}
+h2{
+    font-size: 50px;
+    margin: auto 15%;
+}
+@keyframes blink{
+    0%{
+        opacity:1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.blinking-text{
+    animation: blink 1s infinite;
+}
+.number{
+    /* height: 200vh; */
+    
+    margin-right: 60px;
+    margin-left: 60px;
+    /* width: 100vh; */
+    /* bottom: -50px; */
+    text-align: center;
+    color: white;
+    background-color: #ccc;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 60px;
+    padding: 10px;
+    grid-template-areas: 
+    "I1 I2 I3 I4"
+    "I5 I6 I7 I8"
+    "I9 I10 I11 I12"
+    "I13 I14 I15 I16"
+    "I17 I18 I19 I20";
+    
+}
+.n1{
+    grid-area: I1;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n2{
+    grid-area: I2;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n3{
+    grid-area: I3;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n4{
+    grid-area: I4;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n5{
+    grid-area: I5;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n6{
+    grid-area: I6;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n7{
+    grid-area: I7;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n8{
+    grid-area: I8;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n9{
+    grid-area: I9;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+    
+}
+.n10{
+    grid-area: I10;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n11{
+    grid-area: I11;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n12{
+    grid-area: I12;
+    border: 1px solid white;
+   width:100px;
+   height:100px;
+   background-color:grey;
+   text-align:center;
+   margin:auto;
+   padding:5px;
+   font-size:30px;
+   border-radius: 50%;
+}
+.n13{
+    grid-area: I13;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n14{
+    grid-area: I14;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n15{
+    grid-area: I15;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n16{
+    grid-area: I16;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n17{
+    grid-area: I17;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n18{
+    grid-area: I18;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n19{
+    grid-area: I19;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    /* padding:5px; */
+    font-size:30px;
+    /* /* border-radius: 50%; */
+} 
+.n20{
+    grid-area: I20;
+    border: 1px solid white;
+    width:100px;
+    height:100px;
+    background-color:grey;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    font-size:30px;
+    border-radius: 50%;
+}
+.n1:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n2:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n3:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n4:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n5:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n6:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n7:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n8:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n9:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n10:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n11:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n12:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n13:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n14:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n15:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n16:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n17:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n18:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n19:hover{
+    color: blue;
+    cursor: pointer;
+}
+.n20:hover{
+    color: blue;
+    cursor: pointer;
+}
+
